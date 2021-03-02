@@ -1,0 +1,45 @@
+.container{
+  
+    position: relative;
+    background: #4d4e90;
+    width: 300px;
+    height: 440px;
+    opacity: 0.8;
+    margin-bottom: -5px;
+  -webkit-box-shadow: -2px 2px 11px 6px rgba(0,0,0,0.54); 
+  box-shadow: -2px 2px 11px 6px rgba(0,0,0,0.94);
+    border-radius: 20px;
+    
+  }
+.buttons
+{
+    position: relative;
+    top: 25px;
+    left: 9px;
+    font-family: 'Anton', sans-serif;
+    border: 2px groove white;
+    border-radius: 35px;
+    width: 50px;
+    height: 65px;
+    float: left;
+    background: black;
+    color: white;
+    font-size: 28px;
+    margin: 4px;
+    display: block;
+}
+#Screen
+{
+    position: relative;
+    height:90px;
+    background-color: black;
+    border:1px solid purple;
+    top:20px;
+    text-align:right;
+    color:#00F050;
+    font-size: 20px ;
+}
+.h1
+{
+    text-align: center;
+}

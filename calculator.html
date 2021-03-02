@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            simple Calculator
+        </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <h1 class="h1">simple Calculator</h1>
+        <div class="container" >
+            <div id="Screen"></div>
+            <input class="buttons"type="button" value="1" onclick='myvalues("1")'>
+            <input class="buttons"type="button" value="2" onclick='myvalues("2")'>
+            <input class="buttons"type="button" value="3" onclick='myvalues("3")'>
+            <input class="buttons"type="button" value="+" onclick='myvalues("+")'>
+            <input class="buttons" type="button" value="4" onclick='myvalues("4")'>
+            <input class="buttons" type="button" value="5" onclick='myvalues("5")'>
+            <input class="buttons" type="button" value="6" onclick='myvalues("6")'>
+            <input class="buttons" type="button" value="-" onclick='myvalues("-")'>
+            <input class="buttons" type="button" value="7" onclick='myvalues("7")'>
+            <input class="buttons" type="button" value="8" onclick='myvalues("8")'>
+            <input class="buttons" type="button" value="9" onclick='myvalues("9")'>
+            <input class="buttons" type="button" value="x" onclick='myvalues("*")'>
+            <input class="buttons" type="button" id="button"  value="AC" onclick='values("")'>
+            <input class="buttons" type="button" value="=" onclick='result()'>
+            <input class="buttons" type="button" value="0" onclick='myvalues("0")'>
+            <input class="buttons" type="button" value="/" onclick='myvalues("/")'>
+         </div>
+        <script src="myScript.js"></script>
+    </body>
+</html>
